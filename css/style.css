@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, .6);
+}
+.container {
+    display: grid;
+    grid-template-columns: 266px 357px;
+    grid-template-rows: 266px 199px;
+    grid-gap: 30px;
+    padding: 50px 0px;
+    justify-content: center;
+}
+#player1 {
+    width: 266px;
+    height: 498px;
+    background: #2A2141;
+    grid-row: 1/3;
+    box-sizing: border-box;
+    border-radius: 9px;
+}
+#capa1 {
+    width: 189px;
+    height: 189px;
+    object-fit: cover;
+    padding: 38px;
+}
+#player2 {
+    width: 357px;
+    height: 266px;
+    background: #2A2141;
+    grid-row: 1/2;
+}
+#player3 {
+    width: 357px;
+    height: 199px;
+    background: #2A2141;
+    grid-row: 2/3;
+}
